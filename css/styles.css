@@ -60,6 +60,35 @@ h2 {
   text-align: left;
 }
 
+.smallDot {
+  border: 4px dotted;
+  border-style: none none dotted;
+  color: black;
+}
+
+.presentionElement {
+  margin: 24px;
+}
+
+.endPage {
+  border-width: 2px 0px; 
+  border-style: solid; 
+  border-color: blue; 
+  margin: 10px 0px;
+  padding-top: 15px;
+  color: blue;
+} 
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoEikon {
+  margin: 20px 0px 10px;
+}
+
 .containerText{
 /*INUTILE POUR LE DöFEMENT*/
 margin: 18px 0px;
@@ -87,9 +116,3 @@ transform: translate(-100%,0%);  /* position finale à gauche */
 }
 }
 
-
-.smallDot {
-  border: 10px dotted;
-  border-style: none none dotted;
-  color: black;
-}
