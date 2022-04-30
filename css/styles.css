@@ -20,17 +20,49 @@ h1 {
   font-style: normal;
 }
 */
-body{
-  margin: 0px;
+html {
+  background-color: rgb(222, 222, 222);
+}
+
+body {
+  text-align: center;
+  margin: 8px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 380px;
 }
 
 div {
   display: block;
 }
 
+hr {
+  margin: 0px;
+}
+
+.home {
+  background-image: url("../img/IMG_5603.JPG");
+  background-size: cover;
+  padding: 28px;
+  height: 100vh;
+}
+
+.homeText {
+  margin-top: 314px;
+  margin-left: 15px;
+  text-align: right;
+
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
 .containerText{
 /*INUTILE POUR LE DöFEMENT*/
-margin: 50px 0px;
+margin: 18px 0px;
 text-align: center;
 
 /*à GAEDER POUR LE DöFEMENT*/
@@ -55,3 +87,9 @@ transform: translate(-100%,0%);  /* position finale à gauche */
 }
 }
 
+
+.smallDot {
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: black;
+}
