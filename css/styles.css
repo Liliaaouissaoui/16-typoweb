@@ -56,9 +56,12 @@ hr {
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-bottom: 25px;
-  text-align: left;
+  text-align: center;
+  font-family: pt-serif-pro-extended, sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .smallDot {
@@ -75,7 +78,7 @@ h2 {
   border-width: 2px 0px; 
   border-style: solid; 
   border-color: blue; 
-  margin: 10px 0px;
+  margin: 70px 0px 0px;
   padding-top: 15px;
   color: blue;
 } 
@@ -98,10 +101,40 @@ overflow: hidden;
 }
 
 .border {
-text-align: center;
+ text-align: center;
  max-width: 100%;    
  overflow: hidden;        
  padding: 10px 0px;       
+}
+
+.titleTesteur {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+input {
+  font-size: 15px;
+  background-color: transparent;
+  border-left: none;
+  border-top: none;
+  color: red;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.fontTesteur {
+  margin-bottom: 2px;
+}
+
+.fontTesteurLine {
+  margin: 2px;
+  color: red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
 .text{
@@ -111,11 +144,17 @@ text-align: center;
 }
 
 .anim1{
- animation: MyHomeTitleLeftRight 50s infinite linear;
+ animation: MyHomeTitleLeftRight 10s infinite linear;
+ font-family: pt-serif-pro-extended, sans-serif;
+ font-weight: 800;
+ font-style: italic;
 }
 
 .anim2{
- animation: MyHomeTitleRightLeft 50s infinite linear;
+ animation: MyHomeTitleRightLeft 10s infinite linear;
+ font-family: pt-serif-pro-extended, sans-serif;
+ font-weight: 800;
+ font-style: italic;
 }
 
 .separator{
