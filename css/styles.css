@@ -40,6 +40,11 @@ hr {
   margin: 0px;
 }
 
+p {
+  font-family: pt-serif-pro-extended, sans-serif;
+  font-style: normal;
+}
+
 .home {
   background-image: url("../img/IMG_5603.JPG");
   background-size: cover;
@@ -72,6 +77,7 @@ h2 {
 
 .presentionElement {
   margin: 24px;
+  font-family: pt-serif-pro-extended, sans-serif;;
 }
 
 .endPage {
@@ -141,6 +147,24 @@ input {
  display: inline-block;    
  white-space: nowrap;                  
  color: rgb(222, 222, 222);
+}
+
+.fontRegular {
+  font-family: pt-serif-pro-extended, sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.fontItalic {
+ font-family: pt-serif-pro-extended, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+}
+
+.fontBold {
+  font-family: pt-serif-pro-extended, sans-serif;
+ font-weight: 700;
+ font-style: normal;
 }
 
 .anim1{
