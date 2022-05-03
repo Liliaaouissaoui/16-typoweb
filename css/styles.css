@@ -51,7 +51,8 @@ hr {
   margin-top: 314px;
   margin-left: 15px;
   text-align: right;
-
+  padding: 15px;
+  color: rgb(222, 222, 222);
 }
 
 h2 {
@@ -106,7 +107,7 @@ text-align: center;
 .text{
  display: inline-block;    
  white-space: nowrap;                  
- color: white;
+ color: rgb(222, 222, 222);
 }
 
 .anim1{
