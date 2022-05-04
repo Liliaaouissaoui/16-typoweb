@@ -67,17 +67,19 @@ h2 {
   font-family: pt-serif-pro-extended, sans-serif;
   font-weight: 700;
   font-style: italic;
+  color: blue;
 }
 
 .smallDot {
   border: 4px dotted;
   border-style: none none dotted;
-  color: black;
+  color: blue;
 }
 
 .presentionElement {
   margin: 24px;
-  font-family: pt-serif-pro-extended, sans-serif;;
+  font-family: pt-serif-pro-extended, sans-serif;
+  color: blue;
 }
 
 .endPage {
@@ -118,7 +120,7 @@ overflow: hidden;
   margin-bottom: 0px;
   padding-bottom: 10px;
   font-size: 18px;
-  color: red;
+  color: blue;
 }
 
 input {
@@ -126,7 +128,7 @@ input {
   background-color: transparent;
   border-left: none;
   border-top: none;
-  color: red;
+  color: blue;
   text-align: center;
   padding: 10px 0px;
 }
@@ -137,7 +139,7 @@ input {
 
 .fontTesteurLine {
   margin: 2px;
-  color: red;
+  color: blue;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
